@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color: #eee;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-color: #ddd;
+    padding: 5px;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    color: grey;
+}
+
+.search-box {
+    background-color: #ddd;
+    padding: 5px;
+    border-radius: 5px;
+    height: 30px;
+    color: grey;
+    margin: 0 5px;
+}
+
+.input-search {
+    background-color: transparent;
+    border: none;
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+.search-box i {
+    position: relative;
+    top:2px;
+}
+
+.nav-main i {
+    font-size: 25px;
+}
+
+.nav-main {
+    justify-content: space-between;
+    width: 40%;
+}
+
+.account {
+    background-color: #53ae98;
+    padding: 10px;
+    font-size: 25px;
+    margin-right: 20px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 100%;
+    height: calc(100vh - 100px);
+    position: relative;
+}
+
+.settings {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+}
+
+.content-left {
+    width: 30%;
+    flex-wrap: wrap;
+}
+
+
+.item {
+    width: 50%;
+}
+
+
+
+
+.item-btn {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+}
+
+.item-btn.btn-orange{
+    background-color: orange;
+}
+
+.datetime {
+    height: 30%;
+    border: solid 1px grey;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    background-image: url('img/sfondo.png');
+    background-size: cover;
+}
+
+.events {
+    height: 70%;
+    border: solid 1px grey;
+    border-top: none;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.content-right {
+    width: 30%;
+    margin-left: 100px;
+    height: 70%;
+}
